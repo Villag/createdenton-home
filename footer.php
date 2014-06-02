@@ -12,9 +12,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'createdenton' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'createdenton' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'createdenton' ), 'CreateDenton', '<a href="http://vill.ag" rel="designer">Villag</a>' ); ?>
+			<a href="<?php echo esc_url( __( 'http://vill.ag', 'createdenton' ) ); ?>"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/img/villag.png" alt="Villag logo"> <?php _e( 'A Villag Project', 'createdenton' ); ?></a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
